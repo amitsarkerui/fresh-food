@@ -19,6 +19,11 @@ const OueMenu = () => {
           <MenuItem key={item._id} item={item}></MenuItem>
         ))}
       </div>
+      <div className="flex justify-center mt-10">
+        <button className=" border-b-4 py-2 px-4 border-primary rounded-lg bg-['#f6f6f6'] hover:bg-primary hover:text-white  transition ease-in-out delay-150">
+          View Full Menu
+        </button>
+      </div>
     </div>
   );
 };
