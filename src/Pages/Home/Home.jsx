@@ -5,6 +5,7 @@ import SectionBanner from "../../components/SectionBanner";
 import featuredImage from "../../assets/home/featured.jpg";
 import OueMenu from "./OueManu";
 import ChefRecomandation from "./ChefRecomandation";
+import Testimonials from "./Testimonials";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       ></SectionBanner>
       <OueMenu></OueMenu>
       <ChefRecomandation></ChefRecomandation>
+      <Testimonials></Testimonials>
     </div>
   );
 };
