@@ -1,8 +1,7 @@
 import React from "react";
-// import featuredImage from "../assets/home/featured.jpg";
 import { Parallax } from "react-parallax";
 
-const SectionBanner = ({ featuredImage }) => {
+const SectionBanner = ({ featuredImage, color, heading, paragraph }) => {
   return (
     <Parallax
       className="bg-cover bg-center py-40 my-24"
@@ -13,14 +12,10 @@ const SectionBanner = ({ featuredImage }) => {
     >
       <div
         className="container mx-auto text-center p-28 opacity-80 bg-blend-overlay rounded-2xl"
-        style={{ backgroundColor: "#ffffff" }}
+        style={{ backgroundColor: `${color}` }}
       >
-        <h2 className="text-3xl font-bold mb-6">Bistro Boss</h2>
-        <p className="max-w-xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
-          aperiam non tempora harum nostrum expedita, sint quae voluptatem natus
-          ipsam, mollitia nulla quam sequi voluptatum.
-        </p>
+        <h2 className="text-3xl font-bold mb-6">{heading}</h2>
+        <p className="max-w-xl mx-auto">{paragraph}</p>
       </div>
     </Parallax>
   );

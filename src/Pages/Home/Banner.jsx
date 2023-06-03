@@ -11,6 +11,7 @@ const Banner = () => {
         stopOnHover={true}
         showArrows={true}
         interval={4000}
+        showThumbs={false}
         className="container mx-auto"
       >
         {/* -------------slider 1 ------------------ */}
