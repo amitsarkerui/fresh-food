@@ -45,10 +45,10 @@ const NavBar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="#">About</Link>
+              <Link to="/menu">Our Menu</Link>
             </li>
             <li>
-              <Link to="#">Services</Link>
+              <Link to="/restaurant">Our Restaurant</Link>
             </li>
             <li>
               <Link to="#">Contact</Link>
